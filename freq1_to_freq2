@@ -1,5 +1,0 @@
-%等间隔插值，抽取
-function [data2]=freq1_to_freq2(data1,freq1,freq2)
-i=freq1/freq2:freq1/freq2:length(data1);
-data2=data1(ceil(i));
-
